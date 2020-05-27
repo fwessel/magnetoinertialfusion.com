@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diagnostics</title>
+    <title>L-Egant Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,21 +29,34 @@
 </style>
 
 <body>
-<nav class="navbar is-dark is-bold hidden-print has-text-centered-mobile">
-    <div class="container is-dark is-bold hidden-print ">
-        <div class="navbar-brand">
-            <a class="navbar-item no_underline no_underline_on_hover" href="#" style="font-weight: bolder">
-            </a>
-            <p><img src="images/Legant-Logo.png" align="left" style="margin: 10px 0px 10px 0px;"  width="75%" height="75%"></p>
-            <span class="navbar-burger burger" data-target="navMenu"></span>
+
+<nav class="is-marginless">
+    <div class="columns">
+        <div class="column is-half">
+
+            <img src="images/Legant-Logo.png" width="50%" height="50%" style="margin: 0px 0px 0px 0px;">
         </div>
+        <div class="column is-half is-hidden-mobile">
+            &nbsp;
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar is-dark is-bold hidden-print has-text-centered-mobile">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <div class="container is-dark is-bold hidden-print ">
+
         <div id="navMenu" class="navbar-menu">
             <div class="navbar-end">
-                <!--<a href="/index.html" class="navbar-item no_underline">Home</a> -->
-                <a href="/index.html" class="navbar-item no_underline">Home</a>
-                <a href="/components.html" class="navbar-item no_underline">Components</a>
+                <a href="/index.html" class="navbar-item no_underline">Home </a>
                 <a href="/systems.html" class="navbar-item no_underline">Systems</a>
-                <a href="/surplus.html" class="navbar-item no_underline">Surplus </a>
+                <a href="/components.html" class="navbar-item no_underline">Components </a>
+                <a href="/diagnostics.html" class="navbar-item no_underline">Diagnostics </a>
+<!--                <a href="/surplus.html" class="navbar-item no_underline">Surplus </a>-->
                 <a href="/connect.html" class="navbar-item no_underline">Contact</a>
                 <a href="/about.html" class="navbar-item no_underline">About</a>
             </div>
@@ -54,58 +67,106 @@
 <section class="section">
     <div class="container has-text-centered-mobile">
         <div class="content">
-            <h1 align="center">Diagnostics:</h1>
+
+            <h2 align="center"> Diagnostics</h2>
+            <h4 align="center"> Downloads: <a href="docs/product-brochures/2D-SHDI_2020-2.pdf"> SHDI Brochure,</a>
+                <a href="docs/product-brochures/Complete-product-catalog-2019-v1.pdf"> Complete Product Catalog</a></h4>
+
+            <h6 class="content"</h6>
+
+            <div class="content" , align="center">
+                <a href="#item1">1D-SHDI and Photo, </a>
+                <a href="#item2">2D-SHDI and Photo</a><br>
+            </div>
+            <hr>
+
             <h1 align="center">Second-Harmonic Dispersion-Interferometer (SHDI)</h1>
+
+            <h6>
+                Unlike a conventional two-arm, density-measuring interferometer, the SHDI is more stable,
+                less complex, and lower cost. A simplified diagram of the SHDI concept is shown in the Figure,
+                which uses a single laser beam source,  providing for a common-mode beam path and homodyne detection.
+                Ultimately, the lower limit of sensitivity of the SHDI depends on the thickness and index of refraction of the sample.
+                To date, SHDI's have been used  primarily for the measurement of neutral gas
+                density and the electron density in plasma. Nevertheless, nearly all types of transparent-dispersive
+                mediums can be sampled and measured, including liquids and solids.
+                <br/>
+
+                <img src="images/SHG2.png" style="margin: 10px 0px 10px 0px;" width="50%" height="50%">
+                <br/>
+
+                The SHDI instrument is currently available in two configurations for:<br>
+                1-Dimensional, line-of-sight
+                measurements and for 2-Dimensional, transverse-imaging measurements. <br>
+                Photos of the 1D- and 2D-SHDIs are shown below.
+                The principal characteristics of these SHDIs are as follows:
+
+                <ul>
+                    <li> Vibration isolation systems are typically unnecessary.</li>
+                    <li> The two compact optical units may be mounted directly on the experiment.</li>
+                    <li> The instrument can measure large, and small sample sizes, from mm's - m's .</li>
+                    <li> The system is designed for the application, in order to keep cost low.</li>
+                    <li> The time resolution can range from Δt ~ ns - seconds.</li>
+                    <li> The phase resolution can range from, ΔΦ ~ 10<sup>-2</sup> - radians.</li>
+                    <li> Bandwidth and sensitivity can be tailored for measurement requirements.</li>
+                    <li> As a 2-D instrument, the SHDI can sample mm<sup>2</sup> – cm<sup>2</sup> areas.</li>
+                    <li> The recording rate can approach 1,000 fps.</li>
+                    <li> Large gradients, beam deflections, and fringe jumps may limit the spatial resolution.</li>
+                    <li> User-friendly software provides for quick-image visualization and data analysis.</li>
+                </ul>
+            </h6>
+            <hr>
+            <h4 class="content"</h4>
+            <div class="content" , align="center">
+                <a name="item1"></a>
+                <h5> 1-Dimensional, Second Harmonic Dispersion Interferometer</h5>
+                <div class="columns schedule is-vcentered">
+                    <div class="column is-1"></div>
+                    <div class="column is-one-third ">
+                        <!-- Start Products Section -->
+                        <img src="diagnostics/benchtop.jpg" alt="">
+                    </div>
+                    <div class="column is-2"></div>
+                    <div class="column is-two-thirds" , align="left">
+                        <ul><h6> Length OU1: 150 mm</h6></ul>
+                        <ul><h6> Length OU2: 150 mm</h6></ul>
+                        <ul><h6> Total Width: 80 mm</h6></ul>
+                        <ul><h6> Bandwidth: 1 MHz</h6></ul>
+                        <ul><h6>Electron Density: &int; n<sub>e</sub>xdl &ge; 10<sup>14</sup> cm<sup>-2</sup></h6></ul>
+                        <ul><h6>Neutral Density: &int; n<sub>0</sub>xdl &ge; 10<sup>17</sup> cm<sup>-2</sup></h6></ul>
+                    </div>
+                </div>
+                <hr>
+
+                <a name="item2"></a>
+                <h5> 2-Dimensional, Second Harmonic Dispersion Interferometer</h5>
+                <div class="columns schedule is-vcentered">
+                    <div class="column is-1"></div>
+                    <div class="column is-one-third" , align="left">
+                        <ul><h6> Length OU1: 400 mm</h6></ul>
+                        <ul><h6> Length OU2: 500 mm</h6></ul>
+                        <ul><h6> Total Width: 80 mm</h6></ul>
+                        <ul><h6> Pulse Width: 1 ns</h6></ul>
+                        <ul><h6> Sampling Rate: 100 fps</h6></ul>
+                        <ul><h6>Electron Density: &int; n<sub>e</sub>xdl &ge; 10<sup>14</sup> cm<sup>-2</sup></h6></ul>
+                        <ul><h6>Neutral Density: &int; n<sub>0</sub>xdl &ge; 10<sup>17</sup> cm<sup>-2</sup></h6></ul>
+                    </div>
+                    <div class="column is-2"></div>
+                    <div class="column is-two-thirds ">
+                        <img src="diagnostics/2DSHDI_photo.png" alt="">
+                    </div>
+                </div>
+            <!--                <a href="documents/product-brochures/2D-SHDI_2020-2.pdf" download="LES">-->
+            <!--                    <img src="images/Legant-Logo.png" alt="" width="208" height="284"></a>-->
         </div>
     </div>
-    <hr/>
-   <!-- <section class="section">
-        <div class="container has-text-centered-mobile">
-            <div class=""> -->
-                <h3>
-                    Unlike conventional two-arm, density-measuring interferometers, the SHDI is more stable,
-                    less complex, and lower cost.  A simplified depiction of the SHDI concept is shown in the Figure,
-                    which  uses a single laser beam source to provide a common-mode beam path and homodyne detection.
-                    The  lower limit of sensitivity ultimately depends on the sample's index of refraction and its thickness.
-                    With the SHDI essentially any type of dispersive medium can be quantified, including: plasma, neutral gas,
-                    liquids, solids. To date, SHDI's have been  primarily used for the measurement of neutral gas
-                    density and the electron density in plasma. Nevertheless, nearly all types of transparent-dispersive mediums can
-                    be sampled, including liquids and solids.
-                <br/>
+    <hr>
+</section>
 
-                <img src="images/SHG2.png" align="center" style="margin: 10px 0px 10px 0px;"  width="75%" height="75%">
-                <br/>
-
-                The SHDI instrument is currently available in two configurations for: 1-Dimensional, line-of-sight measurements and
-                for 2-Dimensional,  transverse-imaging measurements. Photos of the 1D- and 2D-SHDIs are shown below.
-                    The principal characteristics of these SHDIs are as follows:
-                <br/><br/>
-                    <ul>
-                        <li> &nbsp; &bull; Vibration isolation systems are typically unnecessary. </li>
-                        <li> &nbsp; &bull; The two compact optical units may be mounted directly on the experiment. </li>
-                        <li> &nbsp; &bull; The instrument can measure large, and small sample sizes, from mm's - m's .</li>
-                        <li> &nbsp; &bull; The system is designed for the application, in order to keep cost low.</li>
-                        <li> &nbsp; &bull; The time resolution can range from Δt ~  ns -  seconds.</li>
-                        <li> &nbsp; &bull; The phase resolution can range from, ΔΦ ~ 10<sup>-2</sup> - radians.</li>
-                        <li> &nbsp; &bull; Bandwidth and sensitivity can be tailored for measurement requirements.</li>
-                        <li> &nbsp; &bull; As a 2-D instrument, the SHDI can sample mm<sup>2</sup> – cm<sup>2</sup> areas.</li>
-                        <li> &nbsp; &bull; The recording rate  can approach 1,000 fps.</li>
-                        <li> &nbsp; &bull; Large gradients, beam deflections, and fringe jumps may limit the spatial resolution.</li>
-                        <li> &nbsp; &bull; User-friendly software provides for quick-image visualization and data analysis.</li>
-                    </ul>
-                </h3>
-                <br>
-
-                Click here to download the SHDI brochure<br/>
-                <a href="documents/product-brochures/2D-SHDI_2020-2.pdf" download="LES">
-                    <img src="images/Legant-Logo.png" alt="" width="208" height="284"></a>
-            </div>
-        <hr>
-        </section>
-        <footer class="footer has-text-centered has-text-centered-mobile">
-            Legant Solutions, LLC, PO Box 16475, Irvine, CA 92623<br/>
-            Phone: (657) 210-2997, Email us at:
-            <a href="mailto:info@legantsolutions.com?Subject=Hi%20mate" target="_top">info@legantsolutions.com</a>
-        </footer>
+<footer class="footer has-text-centered has-text-centered-mobile">
+    Legant Solutions, LLC, PO Box 16475, Irvine, CA 92623<br/>
+    Phone: (657) 210-2997, Email us at:
+    <a href="mailto:info@legantsolutions.com?Subject=Hi%20mate" target="_top">info@legantsolutions.com</a>
+</footer>
 </body>
 </html>
