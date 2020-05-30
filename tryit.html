@@ -18,64 +18,116 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        .navbar {
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        .navbar a {
-            float: left;
-            font-size: 16px;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
+        a {
             text-decoration: none;
         }
 
         .dropdown {
-            float: left;
-            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            text-align: left;
+            width: 132px;
         }
 
-        .dropdown .dropbtn {
-            font-size: 16px;
+        .dropdown-text {
+            cursor: pointer;
+            position: absolute;
+            text-indent: 10px;
+            line-height: 32px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+            width: 100%;
+        }
+
+        .dropdown-text:after {
+            position: absolute;
+            right: 6px;
+            top: 15px;
+            content: '';
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 5px 4px 0 4px;
+            border-color: #555 transparent transparent transparent;
+        }
+
+        .dropdown-text,
+        .dropdown-content a {
+            color: #333;
+            text-shadow: 0 1px #fff;
+        }
+
+        .dropdown-toggle {
+            font-size: 0;
+            z-index: 1;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
             border: none;
-            outline: none;
-            color: white;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
+            padding: 0;
+            margin: 0 0 0 1px;
+            background: transparent;
+            text-indent: -10px;
+            height: 34px;
+            width: 100%;
         }
 
-        .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
+        .dropdown-toggle:focus {
+            outline: 0;
         }
 
         .dropdown-content {
-            display: none;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease;
+            list-style-type: none;
             position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
+            top: 32px;
+            padding: 0;
+            margin: 0;
+            opacity: 0;
+            visibility:hidden;
+            border-radius: 3px;
+            text-indent: 10px;
+            line-height: 32px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            width: 140px;
         }
 
         .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
             display: block;
-            text-align: left;
         }
 
         .dropdown-content a:hover {
-            background-color: #ddd;
+            background: #e8e8e8;
         }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
+
+        .dropdown-toggle:hover ~ .dropdown-text,
+        .dropdown-toggle:focus ~ .dropdown-text {
+            background-color: #e8e8e8;
+        }
+
+        .dropdown-toggle:focus ~ .dropdown-text {
+            box-shadow: 0 1px 3px rgba(0,0,0, .2) inset, 0 1px 0 rgba(255,255,255, 0.8);
+            z-index: 2;
+        }
+
+        .dropdown-toggle:focus ~ .dropdown-text:after {
+            border-width: 0 4px 5px 4px;
+            border-color: transparent transparent #555 transparent;
+        }
+
+        .dropdown-content:hover,
+        .dropdown-toggle:focus ~ .dropdown-content {
+            opacity: 1;
+            visibility:visible;
+            top: 42px;
         }
         a.no_underline {
             text-decoration: none;
@@ -110,16 +162,15 @@
     <!--                    <a href="/surplus.html" class="navbar-item no_underline">Surplus </a>-->
     <a href="about.html" class="navbar-item no_underline">About</a>
 
-<!--    <div class="dropdown">-->
-<!--        <button class="dropbtn">Dropdown-->
-<!--            <i class="fa fa-caret-down"></i>-->
-<!--        </button>-->
-<!--        <div class="dropdown-content">-->
-<!--            <a href="#">Link 1</a>-->
-<!--            <a href="#">Link 2</a>-->
-<!--            <a href="#">Link 3</a>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="dropdown">
+        <input class="dropdown-toggle" type="text">
+        <div class="dropdown-text">Account</div>
+        <ul class="dropdown-content">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Log out</a></li>
+        </ul>
+    </div>
 </div>
 
 <section class="section">
