@@ -120,6 +120,8 @@
   <!--            <a href="#">Link 3</a>-->
   <!--        </div>-->
   <!--    </div>-->
+
+
 </div>
 
 <script type="text/javascript">
@@ -186,11 +188,12 @@
             <div class="columns is-vcentered">
               <div class="column is-full">
                 <div class="field">
-                  <label for="reason">Choose a reason for contacting us:</label>
+                  <label for="reason">Reason for contacting us (300 characters max):</label>
                   <select id="reason" name="Inquiry">
-                    <option value="Product Inquiry">Product Inquiry</option>
                     <option value="Product Quote">Product Quote</option>
+                    <option value="Product Inquiry">Product Inquiry</option>
                     <option value="General Message">General Message</option>
+                    <option value="Other">Other</option>
                   </select>
 
 <!--                  <label class="label">Please name the product you're interested in, <br>-->
@@ -199,7 +202,7 @@
 
 
                   <div class="control">
-                    <textarea id="Message" name="Message" class="textarea" placeholder="I want to prove relativity!"></textarea>
+                    <textarea id="Message" name="Message" class="textarea" maxlength="300" placeholder="I want to prove relativity!"></textarea>
                   </div>
                 </div>
               </div>
