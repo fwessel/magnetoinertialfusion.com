@@ -1,0 +1,13 @@
+Researchers routinely seek to increase their workflow productivity to shorten the timescale for discovery. I should know: I spent over 3 decades of my career in experimental physics, studying fusion energy, plasma physics, and technology.
+
+It started with a Ph.D. in physics, from the University of California, Irvine,  studying methods to inject, intense-pulsed-ion beams into a fusion reactor.  After graduating I worked on ion-space propulsion at the Hughes Research Laboratories, followed by my first startup, MicroBeam, Inc.,  developing focused-ion beams for microelectronics.
+
+I returned to physics research developing  methods to compress magnetic flux in a Z-pinch, x-ray lithography, and of course, beam propagation, which led me back to UC Irvine. In 2001 my previous advisor and others co-founded, Tri Alpha Energy, Inc., which seeks to develop fusion energy in a a magnetic field-reversed configuration.
+
+Nevertheless, Z-pinches were always an attractive option for me, providing extremes in the plasma-compressed-energy density and my research demonstrated a new method for nanosecond-scale delivery of energy to a fusion target. The result was many papers over many decades and two patents on the "Staged Z-pinch" (SZP), which became the basis for my third start-up: Magneto-Inertial Fusion Technologies, Inc. MIFTI continues to develop the SZP for fusion and medical isotopes.
+
+Recently, I have settled back from the above engagements, focusing now on providing cost-effective solutions and diagnostics to researchers, which are compiled on this website. My supplier is Zeonics Systech, of India, founded in 1981, who is a leader in high-voltage, pulsed-power components, and systems. Their products perform at levels comparable to what is available in the USA, at substantially reduced cost. The Second-Harmonic Interferometer is also an instrument in high demand for measuring the plasma density in many experiments; it is our first, “home-grown” product.  Should you be interested in offering  diagnostic systems yourself, don't hesitate to reach out and maybe we can collaborate.
+
+As always it will be my great pleasure to provide you with the highest level of support to facilitate your discoveries.
+
+FJW
