@@ -144,6 +144,13 @@
             .button:hover {
                 background-color: #3e8e41;
             }
+
+            button.disabled {
+                background-color: #ccc;
+                color: #666;
+                cursor: not-allowed;
+                pointer-events: none;
+            }
         </style>
     </head>
 <body>
@@ -171,22 +178,34 @@
         <p>
             Written publications from L-Egant Solutions.
         </p>
-        <a href="publications.html" class="button">Go to publications</a>
+        <button>
+            <a href="Downloads/publications.html" class="button">Go to publications</a>
+        </button>
     </div>
     <div class="panel">
         <h2>Videos</h2>
         <p>
             Video Presentations of publications.
         </p>
-        <a href="videos.html" class="button">Go to videos</a>
+        <button class="disabled">
+            <a href="videos.html">Go to videos</a>
+        </button>
     </div>
     <div class="panel">
         <h2>Diagrams</h2>
         <p>
             Diagrams of products.
         </p>
-        <a href="diagrams.html" class="button">Go to diagrams</a>
+        <button class="disabled">
+            <a href="diagrams.html">Go to diagrams</a>
+        </button>
     </div>
 </div>
+<footer class="footer has-text-centered has-text-centered-mobile">
+    L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
+    Phone: (657) 210-2997, Email us at
+    <a href="connect.html" target="_top">our contact page.</a>
+    <br>
+</footer>
 </body>
 </html>
