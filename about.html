@@ -62,10 +62,6 @@
             background-color: red;
         }
 
-        .navbar-item.active {
-            color: red;
-        }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -122,115 +118,74 @@
     <a href="systems.html" class="navbar-item no_underline">Systems</a>
     <a href="components.html" class="navbar-item no_underline">Components </a>
     <a href="diagnostics.html" class="navbar-item no_underline">Diagnostics </a>
-    <a href="downloads.html" class="navbar-item no_underline">Downloads</a>
     <a href="connect.html" class="navbar-item no_underline">Contact </a>
     <!--                    <a href="/surplus.html" class="navbar-item no_underline">Surplus </a>-->
-    <a href="about.html" class="navbar-item no_underline active">About</a>
+    <a href="about.html" class="navbar-item no_underline">About</a>
+
+    <!--    <div class="dropdown">-->
+    <!--        <button class="dropbtn">Dropdown-->
+    <!--            <i class="fa fa-caret-down"></i>-->
+    <!--        </button>-->
+    <!--        <div class="dropdown-content">-->
+    <!--            <a href="#">Link 1</a>-->
+    <!--            <a href="#">Link 2</a>-->
+    <!--            <a href="#">Link 3</a>-->
+    <!--        </div>-->
+    <!--    </div>-->
 </div>
 
-<div class="container">
-    <div class="image-wrapper">
-        <img src="/images/fw.png" alt="Frank J Wessel">
-        <h2>Frank J. Wessel, Ph.D</h2>
+<section class="section">
+    <div class="container has-text-centered-mobile">
+        <div class="content">
+
+            <h1 align="left">Our Mission Statement:</h1>
+            <h3>To provide cost-effective R&amp;D solutions for science, engineering, and technology</h3>
+            <hr>
+            <!-- Start Products Section -->
+            <div class="columns schedule is-vcentered">
+                <ul style="list-style-type:none;">
+                    <p>L-Egant Solutions (LES) provides cost-effective, high-voltage systems, components, and diagnostics
+                        for many applications in pulsed-power and plasma-physics research, typically for for switching,
+                        triggering, charging, controlling, high voltage pulses, etc. Most of these products are standard
+                        designs, although custom designs are also available, so don't hesitate to ask if you don't see
+                        what you need. </p>
+
+                    <p>The Second-Harmonic Dispersion Interferometer (SHDI) is our latest offering. The SHDI is typically used
+                        to measure the density in plasma, gas, and liquids. The instrument is easy to use and robustly stable
+                        and comes in two configurations: one used to measure the density along a 1-dimensional line-of-sight
+                        path, and another used to measure a 2-dimensional, transverse-density profiles. </p>
+
+                    <p>The quality of these products is backed by years of experience and  iterative
+                        development. Over the past decades my research has been in physics
+                        studying the injection of intense-ion beams into a fusion plasma,
+                        ion-space propulsion,  fusion in a Dense Z-pinch and in a Magnetic, Field-Reversed
+                        Configuration. Along the way I co-founded several start-ups, including: Tri Alpha Energy, Inc. and
+                        Magneto-Inertial Fusion Technologies, Inc., and (most recently) SAFEnergy, Inc.
+
+                    <p>It will be my pleasure to provide you with the highest level of support that can facilitate your research, efficiently and  at low cost.</p>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="content-wrapper">
-        <p>
-            Researchers routinely seek to increase their workflow productivity to shorten the timescale for
-            discovery. I should know: I spent over 3 decades of my career in experimental physics, studying
-            fusion energy, plasma physics, and technology.
-        </p>
-
-        <p>
-            It started with a Ph.D. in physics, from the University of California, Irvine,  studying methods
-            to inject, intense-pulsed-ion beams into a fusion reactor.  After graduating I worked on
-            ion-space propulsion at the Hughes Research Laboratories, followed by my first startup,
-            MicroBeam, Inc.,  developing focused-ion beams for microelectronics.
-        </p>
-
-        <p>
-            I returned to physics research developing  methods to compress magnetic flux in a Z-pinch, x-ray
-            lithography, and of course, beam propagation, which led me back to UC Irvine. In 2001 my
-            previous advisor and others co-founded, Tri Alpha Energy, Inc., which seeks to develop fusion
-            energy in a a magnetic field-reversed configuration.
-        </p>
-
-        <p>
-            Nevertheless, Z-pinches were always an attractive option for me, providing extremes in the
-            plasma-compressed-energy density and my research demonstrated a new method for nanosecond-scale
-            delivery of energy to a fusion target. The result was many papers over many decades and two
-            patents on the "Staged Z-pinch" (SZP), which became the basis for my third start-up:
-            Magneto-Inertial Fusion Technologies, Inc. MIFTI continues to develop the SZP for fusion and
-            medical isotopes.
-        </p>
-
-        <p>
-            Recently, I have settled back from the above engagements, focusing now on providing
-            cost-effective solutions and diagnostics to researchers, which are compiled on this website.
-            My supplier is Zeonics Systech, of India, founded in 1981, who is a leader in high-voltage,
-            pulsed-power components, and systems. Their products perform at levels comparable to what is
-            available in the USA, at substantially reduced cost. The Second-Harmonic Interferometer is
-            also an instrument in high demand for measuring the plasma density in many experiments; it is
-            our first, <q>home-grown</q> product.  Should you be interested in offering  diagnostic systems
-            yourself, don't hesitate to reach out and maybe we can collaborate.
-        </p>
-
-        <p>
-            As always it will be my great pleasure to provide you with the highest level of support to
-            facilitate your discoveries.
-        </p>
-
-        <p>
-            -FJW
-        </p>
+</section>
+<div class="content">
+    <div class="columns schedule is-vcentered">
+        <div class="column is-1"></div>
+        <div class="column is-one-third ">
+            <p> Frank J Wessel</p>
+        </div>
+        <div class="column is-2"></div>
+        <div class="column is-two-thirds">
+            <p><img src="images/fw.png" alt="" style="vertical-align:middle;margin:10px 10px"></p>
+        </div>
     </div>
 </div>
-<style>
-    .container {
-        display: flex;
-        margin-top: 60px;
-        flex-direction: row;
-    }
-
-    .image-wrapper {
-        display: flex;
-        flex-direction: column;
-        margin-right: 20px;
-        text-align: center;
-    }
-
-    .image-wrapper h2 {
-        font-weight: bold;
-        margin-top: 10px;
-    }
-
-    .image-wrapper img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-    }
-
-    .content-wrapper {
-        flex-grow: 1;
-        flex-basis: 0;
-    }
-
-    .content-wrapper p {
-        margin-bottom: 20px;
-        font-family: "Georgia", serif;
-        font-size: 18px;
-    }
-
-</style>
-
-
 <hr>
 <footer class="footer has-text-centered has-text-centered-mobile">
-    <br>L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
-    Phone: (657) 210-2997, Email us at
-    <a href="connect.html" target="_top">our contact page.</a>
-    <p>
-    <a href="privacy.html" target="_top">Privacy Policy</a>
-    </p>
+    L-Egant Solutions, LLC, PO Box 16475, Irvine, CA 92623<br/>
+    Phone: (657) 210-2997, Email us at:
+    <a href="mailto:info@legantsolutions.com?Subject=Hi%20mate" target="_top">info@legantsolutions.com</a>
+    <br>
 </footer>
 </body>
 </html>
