@@ -23,6 +23,20 @@
     <link rel="icon" type="image/ico" href="favicon.ico"></link>
     <link rel="shortcut icon" href="favicon.ico"></link>
     <style>
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            background-image: url("diagnostics/2DSHDI_photo.png");
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .banner a {
+            color: blue;
+            text-decoration: none;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -107,26 +121,14 @@
 </head>
 
 <body>
-<nav class="is-marginless">
-    <div class="columns">
-        <div class="column is-half">
-            <img src="images/Legant-Logo.png" alt="">
-        </div>
-        <div class="column is-half is-hidden-mobile">
-        </div>
-    </div>
-</nav>
-
-<div class="navbar">
-    <a href="index.html" class="navbar-item no_underline active">Home </a>
-    <a href="systems.html" class="navbar-item no_underline">Systems</a>
-    <a href="components.html" class="navbar-item no_underline">Components </a>
-    <a href="diagnostics.html" class="navbar-item no_underline">Diagnostics </a>
-    <a href="downloads.html" class="navbar-item no_underline">Downloads</a>
-    <a href="connect.html" class="navbar-item no_underline">Contact </a>
-    <a href="about.html" class="navbar-item no_underline">About</a>
-</div>
-
+<div id="navbar"></div>
+<script>
+    fetch('../navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        });
+</script>
 
 <section class="section">
     <div class="container has-text-centered-mobile">
@@ -198,55 +200,17 @@
                 <div class="column is-1"></div>
             </div>
             <hr>
-            <!-- End Diagnostics Section -->
-
-            <!-- Start Surplus Section -->
-            <!--                <div class="columns schedule is-vcentered">-->
-            <!--                    <div class="column is-1"></div>-->
-            <!--                    <div class="column is-one-third">-->
-            <!--                        <img src="images/tokamak1978.jp2", style="margin: 10px 0px 10px 0px;"  width="90%" height="90%"-->
-            <!--                            alt="Apologies, we are not currently able to load this image.">-->
-            <!--                    </div>-->
-            <!--                    <div class="column is-2"></div>-->
-            <!--                    <div class="column is-one-third">-->
-
-            <!--                        <ul style="list-style-type:none;">-->
-            <!--                            <a href="surplus.html" target="_blank"-->
-            <!--                               class="no_underline no_underline_on_hover"-->
-            <!--                               style="text-decoration: none; color : #4a4a4a;">-->
-            <!--                                <h3>Surplus</h3> &lt;!&ndash; Header &ndash;&gt;-->
-            <!--                                <ul><h5>Optics</h5></ul>-->
-            <!--                            </a>-->
-            <!--                            <a href="surplus.html" target="_blank"-->
-            <!--                               class="no_underline no_underline_on_hover"-->
-            <!--                               style="text-decoration: none; color : #4a4a4a;">-->
-            <!--                                <ul><h5>Microscopes</h5></ul>-->
-            <!--                            </a>-->
-            <!--                            <a href="diagnostics.html" target="_blank"-->
-            <!--                               class="no_underline no_underline_on_hover"-->
-            <!--                               style="text-decoration: none; color : #4a4a4a;">-->
-            <!--                                <ul><h5>Oscilloscopes</h5></ul>-->
-            <!--                            </a>-->
-            <!--                            <a href="diagnostics.html" target="_blank"-->
-            <!--                               class="no_underline no_underline_on_hover"-->
-            <!--                               style="text-decoration: none; color : #4a4a4a;">-->
-            <!--                                <ul><h5>Vacuum Equipment</h5></ul>-->
-            <!--                            </a>-->
-            <!--                        </ul>-->
-            <!--                        <br>-->
-            <!--                    </div>-->
-            <!--                </div> -->
-            <!--                <hr>-->
-            <!-- End About Section -->
         </div>
     </div>
 </section>
 
 <footer class="footer has-text-centered has-text-centered-mobile">
-    L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
+    <br>L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
     Phone: (657) 210-2997, Email us at
     <a href="connect.html" target="_top">our contact page.</a>
-    <br>
+    <p>
+        <a href="privacy.html" target="_top">Privacy Policy</a>
+    </p>
 </footer>
 </body>
 

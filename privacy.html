@@ -108,23 +108,14 @@
   </style>
 </head>
 <body>
-<nav class="is-marginless">
-  <div class="columns">
-    <div class="column is-half">
-      <img src="images/Legant-Logo.png" alt="">
-    </div>
-    <div class="column is-half is-hidden-mobile">
-    </div>
-  </div>
-</nav>
-<div class="navbar">
-  <a href="index.html" class="navbar-item no_underline">Home </a>
-  <a href="systems.html" class="navbar-item no_underline">Systems</a>
-  <a href="components.html" class="navbar-item no_underline">Components </a>
-  <a href="diagnostics.html" class="navbar-item no_underline">Diagnostics </a>
-  <a href="downloads.html" class="navbar-item no_underline">Downloads</a>
-  <a href="connect.html" class="navbar-item no_underline">Contact </a>
-</div>
+<div id="navbar"></div>
+<script>
+  fetch('../navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+          });
+</script>
 <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
     background: transparent !important;
@@ -187,7 +178,9 @@
     L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
     Phone: (657) 210-2997, Email us at
     <a href="connect.html" target="_top">our contact page.</a>
-    <a href="privacy.html" target="_top">Privacy Policy</a>
+    <p>
+      <a href="privacy.html" target="_top">Privacy Policy</a>
+    </p>
     <br>
   </footer>
 </body>

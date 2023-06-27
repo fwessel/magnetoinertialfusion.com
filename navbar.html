@@ -24,11 +24,24 @@
   <link rel="icon" type="image/ico" href="favicon.ico"></link>
   <link rel="shortcut icon" href="favicon.ico"></link>
   <style>
+    .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      background-image: url("diagnostics/2DSHDI_photo.png");
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .banner a {
+      color: blue;
+      text-decoration: none;
+    }
     body {
       font-family: Arial, Helvetica, sans-serif;
     }
 
-    }
     a.no_underline {
       text-decoration: none;
     }
@@ -105,13 +118,14 @@
     .show {
       display: block;
     }
+    .navbar.
   </style>
 </head>
 <body>
 <nav class="is-marginless">
   <div class="columns">
     <div class="column is-half">
-      <img src="images/Legant-Logo.png" alt="">
+      <img src="../images/Legant-Logo.png" alt="">
     </div>
     <div class="column is-half is-hidden-mobile">
     </div>
@@ -124,13 +138,10 @@
   <a href="diagnostics.html" class="navbar-item no_underline">Diagnostics </a>
   <a href="downloads.html" class="navbar-item no_underline">Downloads</a>
   <a href="connect.html" class="navbar-item no_underline">Contact </a>
+  <a href="about.html" class="navbar-item no_underline">About </a>
 </div>
-
-<footer class="footer has-text-centered has-text-centered-mobile">
-  L-Egant Solutions, LLC, 17165 Von Karman Ave #102, Irvine, CA 92614<br/>
-  Phone: (657) 210-2997, Email us at
-  <a href="connect.html" target="_top">our contact page.</a>
-  <br>
-</footer>
+<div class="banner">
+  <a href="SHDI_flyer.pdf">Check out our new SHDI</a>
+</div>
 </body>
 </html>
