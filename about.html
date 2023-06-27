@@ -201,20 +201,13 @@
     }
 
 </style>
-<div id="footer2"></div>
+<div id="footer"></div>
 <script>
-    fetch('../footer2.html')
+    fetch('../footer.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('footer2').innerHTML = data;
+            document.getElementById('footer').innerHTML = data;
         });
 </script>
-<hr>
-<footer class="footer has-text-centered has-text-centered-mobile">
-    L-Egant Solutions, LLC, 17165 Von Karman Ave. Suite 102, Irvine, CA 92614<br/>
-    Phone: (657) 210-2997, Email us at:
-    <a href="connect.html" target="_top">contacts.html</a>
-    <br>
-</footer>
 </body>
 </html>
