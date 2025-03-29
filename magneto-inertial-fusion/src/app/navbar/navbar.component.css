@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar > a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navbar > a:hover {
+    background-color: red;
+    text-decoration: underline;
+}

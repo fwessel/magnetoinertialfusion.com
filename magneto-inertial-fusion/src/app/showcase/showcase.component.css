@@ -1,0 +1,12 @@
+.showcase-container, .left-right-container {
+    display: flex;
+}
+
+.showcase-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.left, .right {
+    width: 50%;
+}
