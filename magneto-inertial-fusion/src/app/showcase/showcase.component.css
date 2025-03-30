@@ -9,13 +9,9 @@
     align-items: space-between;
 }
 
-:host ::ng-deep > * {
-    display: contents;
-}
-
 .left, .right {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
