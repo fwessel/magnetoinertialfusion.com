@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeftRightComponent } from './left-right.component';
+import { ShowcaseComponent } from './showcase.component';
 
-describe('LeftRightComponent', () => {
-  let component: LeftRightComponent;
-  let fixture: ComponentFixture<LeftRightComponent>;
+describe('ShowcaseComponent', () => {
+  let component: ShowcaseComponent;
+  let fixture: ComponentFixture<ShowcaseComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LeftRightComponent]
+      imports: [ShowcaseComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LeftRightComponent);
+    fixture = TestBed.createComponent(ShowcaseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

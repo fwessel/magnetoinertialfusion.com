@@ -10,5 +10,7 @@ import { ShowcaseComponent } from '../showcase/showcase.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  navTo(url: string) {
+    window.location.href = url;
+  }
 }
