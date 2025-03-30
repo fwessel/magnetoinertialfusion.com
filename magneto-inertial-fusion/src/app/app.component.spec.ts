@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'magneto-inertial-fusion' title`, () => {
+  it(`should have the 'magneto-intertial-fusion-angular-19' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('magneto-inertial-fusion');
+    expect(app.title).toEqual('magneto-intertial-fusion-angular-19');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, magneto-inertial-fusion');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, magneto-intertial-fusion-angular-19');
   });
 });

@@ -4,7 +4,6 @@ import { ShowcaseComponent } from '../showcase/showcase.component';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [PageContainerComponent, ShowcaseComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
