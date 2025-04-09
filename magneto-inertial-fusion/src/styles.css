@@ -16,3 +16,33 @@ hr {
 img {
     width: 100%;
 }
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.downloads {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.vertically-spaced {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+}
