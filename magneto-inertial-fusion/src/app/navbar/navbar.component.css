@@ -1,18 +1,39 @@
-.app-navbar {
+nav, #dropdown-basic {
     background-color: #333;
+}
+
+#dropdown-basic > p{
+    padding: 1rem;
+    margin: 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.app-navbar > a {
+a, button, p {
     color: white;
     font-size: 1rem;
     text-decoration: none;
+}
+
+nav > a, button {
     padding: 1rem;
 }
 
-.app-navbar > a:hover {
+nav > a:hover, button:hover, p:hover {
     background-color: red;
     text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    background-color: #333;
+    border: none;
 }
