@@ -6,14 +6,14 @@
             Components <span class="caret"></span>
         </button>
         <div id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
-            <p role="menuitem" (click)="navTo('/components')">Components</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components')">Components</p>
             <hr/>
-            <p role="menuitem" (click)="navTo('/components/capacitors')">Capacitors</p>
-            <p role="menuitem" (click)="navTo('/components/diodes')">Diodes</p>
-            <p role="menuitem" (click)="navTo('/components/resistors')">Resistors</p>
-            <p role="menuiem" (click)="navTo('/components/switches')">Switches</p>
-            <p role="menuitem" (click)="navTo('/components/transformers')">Transformers</p>
-            <p role="menuitem" (click)="navTo('/components/miscellaneous')">Misc.</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components/capacitors')">Capacitors</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components/diodes')">Diodes</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components/resistors')">Resistors</p>
+            <p role="menuiem" (click)="this.navService.navTo('/components/switches')">Switches</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components/transformers')">Transformers</p>
+            <p role="menuitem" (click)="this.navService.navTo('/components/miscellaneous')">Misc.</p>
         </div>
     </div>
     <a href="/diagnostics">Diagnostics </a>

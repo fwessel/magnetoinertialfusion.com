@@ -1,1 +1,128 @@
-<p>systems works!</p>
+<app-page-container>
+    <h2 class="title">Pulsed, High-Voltage Systems</h2>
+    <p class="downloads">Downloads: <a href="pdfs/2024-Zeonics-Systech-Catalog.pdf" target="_blank">Complete Product Catalog</a></p>
+    
+    <hr/>
+    
+    <p>JUMP TO:</p>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-1')">Rail Gap Switch System</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-2')">HV Pulsed Systems and Marx Generators</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-3')">Mini-Marx HV Pulsers</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-4')">Compact High Energy Pulsers</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-5')">Low Cost Trigger Generator</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-6')">Pulse Forming Network Pulsers</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('systems-7')">Bridge Wire Capacitor Module Trigger</a>
+
+    <hr/>
+
+    <app-showcase id="systems-1">
+        <h2 top>Rail Gap Switch Systems</h2>
+        <div left>
+            <img src="images/rail_gap_system.jpg"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Working Voltages: up to 50 kVDC, typical</p>
+            <p>Test Voltage: 70 kVDC</p>
+            <p>Current: &lt; 750 kA peak</p>
+            <p>Type No. : S/34/65</p>
+            <p><a href='/pdfs/Rail_Gap_Switches.pdf' target="_blank">Rail Gap brochure</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-2">
+        <h2 top>HV Pulsed Systems and Marx Generators</h2>
+        <div right>
+            <img src="images/MarxGenerator.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Working Voltages: 50 -1,000 kV</p>
+            <p>Impedance: 2 -10 Ohm, typical</p>
+            <p>Rep. Pulse Rate: 0.1 - 20 Hz</p>
+            <p>Risetime: 100 - 1,000 ns</p>
+            <p><a href="pdfs/Custom_Built_HV_Systems.pdf" target="_blank">Pulsed HV Systems brochure</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-3">
+        <h2 top>Mini-Marx HV Pulsers</h2>
+        <div left>
+            <img src="images/mini_Marx.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Voltage: 200 kVDC, designed to specifications</p>
+            <p>Energy: 20 Joules</p>
+            <p>Pulse Repetition: 5 Hz</p>
+            <p>Risetime: 1 μsec</p>
+            <p>Pulse Duration: 50 μsec</p>
+            <p><a href="pdfs/Mini_Marx_&_Impulse_Generators.pdf" target="_blank">Mini-Marx Pulsed HV Systems brochure</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-4">
+        <h2 top>Compact High Energy Pulsers</h2>
+        <div right>
+            <img src="images/High_energy_pulsed_supply.JPG"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Voltage: 5 - 30 kV</p>
+            <p>Current: &lt; 10 kA</p>
+            <p>Wired Mains, or Battery</p>
+            <p>Pulse Repetition Rate: Hz to 1ppm</p>
+            <p><a href="pdfs/Firing_Modules.pdf" target="_blank">Compact HE Systems brochure</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-5">
+        <h2 top>Low Cost Trigger Generators</h2>
+        <div left>
+            <img src="images/lowCostTrigger.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Input Voltage: 5 - 10 V typical</p>
+            <p>Output: 500 V</p>
+            <p>Current: 10kA, peak</p>
+            <p>Battery or AC mains</p>
+            <p>Z/33/146</p>
+            <p><a href="images/HV_pulse_generators.png" target="_blank">Low Cost Trigger Generators</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-6">
+        <h2 top>Pulse Forming Network Pulsers</h2>
+        <div right>
+            <img src="images/PFNModulator.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Working Voltages: 10-100 kV</p>
+            <p>Capacitance: 1 nF - 500 μFd</p>
+            <p>Pulse Duration: 10 ns - 100 μs</p>
+            <p>Multi-stage system design</p>
+            <p><a href="pdfs/PFN_&_Modulators.pdf" target="_blank">PFN Systems brochure</a></p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase id="systems-7">
+        <h2 top>Bridge Wire Capacitor Module Trigger</h2>
+        <div left>
+            <img src="images/capacitors_item14.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Input trigger voltage: 0.3 kV</p>
+            <p>Output voltage: 3 kV</p>
+            <p>Capacitance: 50/100/250nF at 5/10 kV</p>
+            <p>Type No.: ZHS/001/101</p>
+        </div>
+    </app-showcase>
+</app-page-container>

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { NavigationService } from '../navigation.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +9,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  navTo(url: string) {
-    window.location.href = url;
-  }
+  constructor(public navService: NavigationService) {}
+  
+  
 }

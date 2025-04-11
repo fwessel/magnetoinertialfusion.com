@@ -8,8 +8,4 @@ import { ShowcaseComponent } from '../showcase/showcase.component';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
-  navTo(url: string) {
-    window.location.href = url;
-  }
-}
+export class HomeComponent { }
