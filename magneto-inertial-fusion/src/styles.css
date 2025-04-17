@@ -15,6 +15,9 @@ hr {
 
 img {
     width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .title {
@@ -45,4 +48,23 @@ a:hover {
     justify-content: space-evenly;
     height: 100%;
     text-align: center;
+    align-items: flex-start;
+}
+
+.jump-link {
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.showcase-list-item img{
+    max-height: 20rem;
+}
+
+.showcase-list-item p {
+    text-align: start;
+    font-weight: bold;
 }
