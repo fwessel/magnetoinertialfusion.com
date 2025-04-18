@@ -1,1 +1,76 @@
-<p>diodes works!</p>
+<app-page-container>
+    <h1 class="title">Diodes</h1>
+    <p class="downloads">Downloads: 
+        <br/> 
+        <a href="pdfs/High_Power_Diodes.pdf" target="_blank">High Power Diodes Brochure</a>
+        <br/>
+        <a href="pdfs/2024-Zeonics-Systech-Catalog.pdf" target="_blank">Complete Product Catalog</a>
+    </p>
+    
+    <hr/>
+    
+    <p>JUMP TO:</p>
+    <a class="jump-link" (click)="this.navService.jumpTo('diodes-1')">General Purpose HV Diodes</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('diodes-2')">HV Diode Sticks</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('diodes-3')">UHV Diode</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('diodes-4')">HV Diode Assemblies</a>
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="diodes-1">
+        <h2 top>General Purpose HV Diodes</h2>
+        <div left>
+            <img src="images/diodes_item1.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Voltage : 10-100 kVDC</p>
+            <p>Current : 25 uA - 100 A</p>
+            <p>Type : depends on peak inverse voltage and current</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="diodes-2">
+        <h2 top>HV Diode Sticks</h2>
+        <div right>
+            <img src="images/diodes_item2.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Peak Inverse Voltage : 150 - 400 kVDC</p>
+            <p>Continuous current : 10 - 100 mA</p>
+            <p>Pulsed, non-rep. current : 1 - 5 A</p>
+            <p>X-ray systems, pulse generators, particle accelerators</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="diodes-3">
+        <h2 top>Ultra High Voltage Diode</h2>
+        <div left>
+            <img src="images/diodes_item3.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Peak Inverse Voltage : 400 kVDC</p>
+            <p>Current : 50 - 500 mA</p>
+            <p>Type : Z/27/151 (768)</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="diodes-4">
+        <h2 top>HV Diode Assemblies, Oil Immersed</h2>
+        <div right>
+            <img src="images/diodes_item4.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Peak Inverse Voltage : 6/10/30/50 kVDC</p>
+            <p>Peak current : 50/100 kA, 20 ms max.V</p>
+            <p>Type : Z/33/220</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+</app-page-container>
