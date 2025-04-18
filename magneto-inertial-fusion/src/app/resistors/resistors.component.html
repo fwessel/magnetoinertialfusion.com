@@ -1,1 +1,116 @@
-<p>resistors works!</p>
+<app-page-container>
+    <h1 class="title">Resistors</h1>
+    <p class="downloads">Downloads: 
+        <br/> 
+        <a href="pdfs/High_Power_Resistors.pdf" target="_blank">Resistors Brochure</a>
+        <br/>
+        <a href="pdfs/2024-Zeonics-Systech-Catalog.pdf" target="_blank">Complete Product Catalog</a>
+    </p>
+    
+    <hr/>
+    
+    <p>JUMP TO:</p>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-1')">HV Pulse Resistors</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-2')">Low Inductance Coaxial Resistors</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-3')">Serpentine, HV Low Inductance Resistors</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-4')">Compensated, HV Dividers</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-5')">HV, High Current Resistive Shunts</a>
+    <a class="jump-link" (click)="this.navService.jumpTo('resistors-6')">Thick Film, High Power, HV Resistors</a>
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-1">
+        <h2 top>HV Pulse Resistor</h2>
+        <div left>
+            <img src="images/resistors_item1.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Resistance: 50 - 1000Ω Max</p>
+            <p>Current: 50 kA max</p>
+            <p>Energy: 10 kJ</p>
+            <p>Blumlein, Marx, Capacitor bank applications</p>
+            <p>Type No.: Z/21/117</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-2">
+        <h2 top>Low Inductance Coaxial Resistor</h2>
+        <div right>
+            <img src="images/resistors_item2.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Resistance: 1 - 500Ω, typical</p>
+            <p>Current: varies</p>
+            <p>Wire wound, grounded metal container</p>
+            <p>Type No.: ZHS/001/082</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-3">
+        <h2 top>HV Serpentine, Low Inductance Resistor</h2>
+        <div left>
+            <img src="images/resistors_item3.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Resistance: 200 kΩ typical</p>
+            <p>Current: 0.001 - 2 A typical</p>
+            <p>Power 50 - 3000 W typical</p>
+            <p>Oil immersed, or gas cooled</p>
+            <p>Type No.: Z/20/69</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-4">
+        <h2 top>Compensated, High Voltage Divider</h2>
+        <div right>
+            <img src="images/resistors_item4.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Voltage: 60 - 200 kV, typical</p>
+            <p>Resistance: 2,000 MΩ, typical</p>
+            <p>Ratio: 1,000:1, or 10,000:1</p>
+            <p>Type No.: : Z/43/136, Z/43/140</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-5">
+        <h2 top>HV, High Current, Resistive Shunts</h2>
+        <div left>
+            <img src="images/resistors_item5.png"/>
+        </div>
+        <div right class="vertically-spaced">
+            <p>Resistance: 0.05/ 1 / 5 /10 mΩ, typical</p>
+            <p>Current: 1 / 10 / 100 kA typical</p>
+            <p>Risetime: 1µs minimum</p>
+            <p>Design: coaxial</p>
+            <p>Type No.: Z/25/115 (672)</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+    <app-showcase class="showcase-list-item" id="resistors-6">
+        <h2 top>Thick Film, High Power, HV Resistors</h2>
+        <div right>
+            <img src="images/resistors_item6.png"/>
+        </div>
+        <div left class="vertically-spaced">
+            <p>Voltage: varies, up to 300 kV</p>
+            <p>Resistance: varies, up to 500 MΩ</p>
+            <p>Power: 0.1 - 1 kW</p>
+            <p>Diameter: 25 - 35 mm</p>
+            <p>Length: 150 - 300 mm</p>
+            <p>Type No.: : Z/40/64, Z/43/140</p>
+        </div>
+    </app-showcase>
+
+    <hr/>
+
+</app-page-container>
