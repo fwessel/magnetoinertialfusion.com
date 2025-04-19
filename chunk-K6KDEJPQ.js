@@ -1,1 +1,0 @@
-import{M as n}from"./chunk-EXDBUYRX.js";var r=class o{constructor(){}navTo(t){window.location.href=t}jumpTo(t){document.getElementById(t).scrollIntoView({behavior:"smooth"})}static \u0275fac=function(e){return new(e||o)};static \u0275prov=n({token:o,factory:o.\u0275fac,providedIn:"root"})};export{r as a};

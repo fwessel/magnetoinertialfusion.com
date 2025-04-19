@@ -1,1 +1,0 @@
-import{Aa as n,La as o,Ma as i,Ta as s}from"./chunk-EXDBUYRX.js";var a=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-diagnostics"]],decls:2,vars:0,template:function(t,p){t&1&&(o(0,"p"),s(1,"diagnostics works!"),i())},encapsulation:2})};export{a as DiagnosticsComponent};
