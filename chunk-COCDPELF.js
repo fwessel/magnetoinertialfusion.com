@@ -1,0 +1,1 @@
+import{Aa as n,La as r,Ma as o,Ta as s}from"./chunk-EXDBUYRX.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-transformers"]],decls:2,vars:0,template:function(e,p){e&1&&(r(0,"p"),s(1,"transformers works!"),o())},encapsulation:2})};export{a as TransformersComponent};
