@@ -1,0 +1,22 @@
+<nav>
+    <a href="">Home </a>
+    <a href="systems">Systems</a>
+    <div class="btn-group" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="dropdown-toggle" aria-controls="dropdown-basic">
+            Components <span class="caret"></span>
+        </button>
+        <div id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+            <p role="menuitem" (click)="this.navService.navTo('components')">Components</p>
+            <hr/>
+            <p role="menuitem" (click)="this.navService.navTo('components/capacitors')">Capacitors</p>
+            <p role="menuitem" (click)="this.navService.navTo('components/diodes')">Diodes</p>
+            <p role="menuitem" (click)="this.navService.navTo('components/resistors')">Resistors</p>
+            <p role="menuiem" (click)="this.navService.navTo('components/switches')">Switches</p>
+            <p role="menuitem" (click)="this.navService.navTo('components/transformers')">Transformers</p>
+            <p role="menuitem" (click)="this.navService.navTo('components/miscellaneous')">Misc.</p>
+        </div>
+    </div>
+    <a href="diagnostics">Diagnostics </a>
+    <a href="contact">Contact </a>
+    <a href="about">About</a>
+</nav>

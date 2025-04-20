@@ -1,0 +1,19 @@
+#signature {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60%;
+}
+
+.row {
+    margin-bottom: 5rem;
+}
