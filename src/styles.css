@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #363636;
+}
+
+hr {
+    background-color: #CCCCCC;
+    border: none;
+    display: block;
+    height: 1.5px;
+    margin: 1.5rem 0; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.downloads {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.vertically-spaced {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+}
+
+.jump-link {
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.showcase-list-item img{
+    max-height: 20rem;
+}
+
+.showcase-list-item p {
+    text-align: start;
+    font-weight: bold;
+}
